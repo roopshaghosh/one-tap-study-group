@@ -1,6 +1,6 @@
 # One-Tap Study Group
 
-Welcome to your Digital Flare application! We have built a full-stack, real-time application using React, Express, and Socket.io. 
+Welcome to our Digital Flare application! We have built a full-stack, real-time application using React, Express, and Socket.io. 
 
 This guide will explain exactly how to start your application, how the folders are organized, and how the entire workflow functions.
 
@@ -8,7 +8,7 @@ This guide will explain exactly how to start your application, how the folders a
 
 ## 🚀 Step 1: Setup and Run Instructions
 
-Since you are a beginner, follow these steps very carefully! You will need two terminal windows open: one for the backend (server) and one for the frontend (website).
+ You will need two terminal windows open: one for the backend (server) and one for the frontend (website).
 
 ### A. Starting the Backend Server
 
