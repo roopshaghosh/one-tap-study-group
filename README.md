@@ -1,14 +1,14 @@
-# One-Tap Study Group: Beginner's Guide
+# One-Tap Study Group
 
-Welcome to your Digital Flare application! We have built a full-stack, real-time application using React, Express, and Socket.io. 
+Welcome to our Digital Flare application! We have built a full-stack, real-time application using React, Express, and Socket.io. 
 
-This guide will explain exactly how to start your application, how the folders are organized, and how the entire workflow functions.
+This guide will explain exactly how to start this application, how the folders are organized, and how the entire workflow functions.
 
 ---
 
-## 🚀 Step 1: Setup and Run Instructions
+##  Step 1: Setup and Run Instructions
 
-Since you are a beginner, follow these steps very carefully! You will need two terminal windows open: one for the backend (server) and one for the frontend (website).
+ You will need two terminal windows open: one for the backend (server) and one for the frontend (website).
 
 ### A. Starting the Backend Server
 
@@ -46,7 +46,7 @@ Since you are a beginner, follow these steps very carefully! You will need two t
 
 ---
 
-## 📁 Step 2: Project Folder Structure Explained
+##  Step 2: Project Folder Structure Explained
 
 ```text
 study-group/
@@ -77,7 +77,7 @@ study-group/
 
 ---
 
-## 🔄 Step 3: Complete User Workflow Explanation
+##  Step 3: Complete User Workflow Explanation
 
 Here is exactly what happens step-by-step when you use the website:
 
@@ -104,6 +104,4 @@ Here, `StudyRoom.tsx` asks the server to place you in a private "Socket.io Room"
 * **Focusing:** You click the fullscreen button in the top right. React triggers the browser's native `requestFullscreen` API to hide your tabs and focus entirely on studying!
 * **Leaving:** When time is up, you click the "Leave" button. You tell the server you are out, and React drops you safely back to the Dashboard.
 
----
 
-> 

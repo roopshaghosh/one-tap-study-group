@@ -92,7 +92,7 @@ export default function Dashboard({ user, onLogout, onJoinRoom }: DashboardProps
       timeLimit: selectedTime
     }, (response: any) => {
       // The server confirmed it! Save our flare's generated ID.
-      setMyFlareId(response.flareId);
+      //setMyFlareId(response.flareId);
       
       // We will automatically transition to the Study Room after 8 seconds
       // to give time for fake/simulated users to "join" our flare.
