@@ -39,7 +39,7 @@ export default function Dashboard({ user, onLogout, onJoinRoom }: DashboardProps
   // UI states for when the user clicks 'SEND FLARE'
   const [isSending, setIsSending] = useState(false);
   const [joinedUsers, setJoinedUsers] = useState<any[]>([]);
-  const [myFlareId, setMyFlareId] = useState<string | null>(null);
+  // const [myFlareId, setMyFlareId] = useState<string | null>(null);
   // -----------------------------------
 
   // useEffect block to handle the Socket.io connection.

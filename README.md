@@ -106,4 +106,4 @@ Here, `StudyRoom.tsx` asks the server to place you in a private "Socket.io Room"
 
 ---
 
-> **Note for the Developer:** Every single `.ts` and `.tsx` and `.js` file we wrote has been injected with massive comments explaining what every line, function, and Hook does. As a beginner, feel free to open `App.tsx` or `server.js` in a text editor (like VSCode) and just start reading from top to bottom!
+> 
