@@ -2,11 +2,11 @@
 
 Welcome to our Digital Flare application! We have built a full-stack, real-time application using React, Express, and Socket.io. 
 
-This guide will explain exactly how to start your application, how the folders are organized, and how the entire workflow functions.
+This guide will explain exactly how to start this application, how the folders are organized, and how the entire workflow functions.
 
 ---
 
-## 🚀 Step 1: Setup and Run Instructions
+##  Step 1: Setup and Run Instructions
 
  You will need two terminal windows open: one for the backend (server) and one for the frontend (website).
 
@@ -46,7 +46,7 @@ This guide will explain exactly how to start your application, how the folders a
 
 ---
 
-## 📁 Step 2: Project Folder Structure Explained
+##  Step 2: Project Folder Structure Explained
 
 ```text
 study-group/
@@ -77,7 +77,7 @@ study-group/
 
 ---
 
-## 🔄 Step 3: Complete User Workflow Explanation
+##  Step 3: Complete User Workflow Explanation
 
 Here is exactly what happens step-by-step when you use the website:
 
@@ -105,5 +105,3 @@ Here, `StudyRoom.tsx` asks the server to place you in a private "Socket.io Room"
 * **Leaving:** When time is up, you click the "Leave" button. You tell the server you are out, and React drops you safely back to the Dashboard.
 
 ---
-
-> **Note for the Developer:** Every single `.ts` and `.tsx` and `.js` file we wrote has been injected with massive comments explaining what every line, function, and Hook does. As a beginner, feel free to open `App.tsx` or `server.js` in a text editor (like VSCode) and just start reading from top to bottom!
