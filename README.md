@@ -13,10 +13,7 @@ This guide will explain exactly how to start this application, how the folders a
 ### A. Starting the Backend Server
 
 1. Open your terminal or command prompt.
-2. Navigate into the backend folder:
-   ```bash
-   cd c:\Users\shamp\OneDrive\Desktop\study-group\backend
-   ```
+2. Navigate into the backend folder
 3. Install the dependencies. This downloads Express and Socket.io from the internet:
    ```bash
    npm install
@@ -30,10 +27,7 @@ This guide will explain exactly how to start this application, how the folders a
 ### B. Starting the Frontend Website
 
 1. Open a **second** terminal window.
-2. Navigate into the frontend folder:
-   ```bash
-   cd c:\Users\shamp\OneDrive\Desktop\study-group\frontend
-   ```
+2. Navigate into the frontend folder
 3. Install the needed packages (React, Tailwind CSS, Lucide Icons, Socket.io):
    ```bash
    npm install
@@ -41,10 +35,7 @@ This guide will explain exactly how to start this application, how the folders a
 4. Start the development website:
    ```bash
    npm run dev
-   ```
-   *You will see a link, usually `http://localhost:5173`. Hold CTRL (or CMD) and click that link to open the app in your browser!*
 
----
 
 ##  Step 2: Project Folder Structure Explained
 
@@ -85,7 +76,7 @@ Here is exactly what happens step-by-step when you use the website:
 When you navigate to `http://localhost:5173`, the browser downloads the React app. `App.tsx` sees you don't have a saved "JWT Token" in your `localStorage`, so it shows you the **Login Page**.
 
 ### 2. Logging In
-You type in the demo credentials (`roopsha@example.com` and `123456`) and click **Get Started**. The `Login.tsx` component checks these details. If correct, it creates a demo User object, hands it to `App.tsx`, and saves it to your browser. You are instantly visually transitioned to the **Dashboard**.
+You type in the demo credential and click **Get Started**. The `Login.tsx` component checks these details. If correct, it creates a demo User object, hands it to `App.tsx`, and saves it to your browser. You are instantly visually transitioned to the **Dashboard**.
 
 ### 3. Arriving at the Dashboard
 When `Dashboard.tsx` loads, it immediately connects to the backend (`server.js`) using `Socket.io`. 
